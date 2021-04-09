@@ -1,0 +1,29 @@
+@import './../../../styles/sass/mixins.scss';
+@import './../../../styles/sass/vars.scss';
+
+.header {
+    background-color: $primaryColor;
+    border: 1px solid red;
+    .container{
+        @extend %container;
+        .inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            .wrapper {
+                .logo {
+                    margin-right: 45px;
+                }
+                .phone {
+                    color: $linkColor;
+                    @include text (14px, 400, 17px)
+                }
+            }
+            .use{
+                .userImg {
+                }
+            }
+        }
+    }
+}
