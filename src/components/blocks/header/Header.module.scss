@@ -4,6 +4,9 @@
 .header {
     background-color: $primaryColor;
     border: 1px solid red;
+    @media screen and (min-width: 768px)  { 
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);  
+    }
     .container{
         @extend %container;
         .inner {
@@ -11,16 +14,50 @@
             justify-content: space-between;
             align-items: center;
             height: 60px;
+            @media screen and (min-width: 768px)  { 
+                height: 100px;  
+            }
+
             .wrapper {
+                display: flex;
                 .logo {
                     margin-right: 45px;
+                    @media screen and (min-width: 576px)  { 
+                        margin-right: 36px;  
+                    }
+                    @media screen and (min-width: 768px)  { 
+                        height: 23px;  
+                    }
+                }
+                .phoneMoscow {
+                    color: $linkColor;
+                    @include text (14px, 400, 17px);
+                    text-decoration: none;
+                    @media screen and (min-width: 576px)  { 
+                        display: none;  
+                    }
                 }
                 .phone {
-                    color: $linkColor;
-                    @include text (14px, 400, 17px)
+                    display: none;
+                    span, .phoneLink{
+                        @include text (14px, 400, 17px);
+                    }
+                    span {  
+                        color: $textColorLight;
+                    }
+                    .phoneLink{
+                        color: $textColor;
+                        text-decoration: none;
+                    }
+                    @media screen and (min-width: 576px)  { 
+                        display: block;  
+                    }
                 }
             }
             .use{
+                @media screen and (min-width: 1280px)  { 
+                    display: none;  
+                }
                 .userImg {
                 }
             }

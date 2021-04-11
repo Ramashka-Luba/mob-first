@@ -11,7 +11,11 @@ function Header() {
                 <div className={s.inner}>
                     <div  className={s.wrapper}>
                         <img src={logo} alt="logo" className={s.logo}/>
-                        <a href="tel:+88001231212" className={s.phone}>Москва</a>
+                        <a href="tel:+88001231212" className={s.phoneMoscow}>Москва</a>
+                        <div className={s.phone}>
+                            <span>Телефон</span>
+                            <a href="tel:+88001231212" className={s.phoneLink}>8(800)-123-12-12</a>
+                        </div>
                     </div>
                     <a fref="#" className={s.use}>
                         <img src={userIcon} alt="user icon" className={s.userImg}/>
