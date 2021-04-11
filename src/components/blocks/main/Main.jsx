@@ -1,6 +1,6 @@
 import s from './Main.module.scss';
 import percent from './../../../assets/img/percent.svg'
-import Button from '../../button/Button';
+import ButtonMain from '../../buttonMain/ButtonMain';
 
 
 function Main() {
@@ -16,7 +16,7 @@ function Main() {
                         </div>
                         <img className={s.percent} src={percent} alt="percent"/>
                     </div>
-                    <Button title="Забронировать место"/>
+                    <ButtonMain style= {{marginBottom:"15px"}} title="Забронировать место"/>
                 </div>
             </div>
         </div>
