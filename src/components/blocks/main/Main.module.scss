@@ -18,8 +18,7 @@
             }
             .title{
                 @include text(32px, 700, 39px); 
-                max-width: 258px;
-                letter-spacing: 0.5px;
+                max-width: 247px;
                 @media screen and (min-width: 768px) {
                     @include text(40px, 700, 49px); 
                     max-width: 597px;
@@ -29,23 +28,26 @@
                 }
                 span {
                     color: $accentColor;
-                    letter-spacing: 0.5px;
                 }
             }
-            .priceBox {
+            .priceBox {              
+                background-image: url(./../../../assets/img/price-box.svg);
                 height: 86px;
                 width: 200px;
-                background-image: url(./../../../assets/img/price-box.svg);
                 background-repeat: no-repeat;
                 margin: 36px 0 14px;
                 display: flex;
                 justify-content: space-between;
                 padding: 9px 15px 18px 18px;
+                background-position-x: -4px;
                 @media screen and (min-width: 768px) {
                     height: 95px;
                     width: 225px;
-                    padding: 10px 26px;
-                    margin: 29px 0 12px;
+                    padding: 15px 23px;
+                    margin: 18px 0 2px;
+                    background-size: 242px 104px;
+                    background-position-x: -10px;
+                    
                 }
                 .wrapper {
                     display: flex;
@@ -67,9 +69,11 @@
                     border-radius: 50%;
                     filter: drop-shadow(0px 4px 15px rgba(255, 255, 255, 0.25)) drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
                     max-height: 47px;
-                    // margin-top: 10px;
+                    margin-top: 8px;
                     @media screen and (min-width: 768px) {
                         max-height: 52px;
+                        margin-top: 2px;
+                        transform: translateX(-6px);
                     }
                 }
             }

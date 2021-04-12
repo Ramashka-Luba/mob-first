@@ -16,7 +16,7 @@ function Main() {
                         </div>
                         <img className={s.percent} src={percent} alt="percent"/>
                     </div>
-                    <ButtonMain style= {{marginBottom:"15px"}} title="Забронировать место"/>
+                    <ButtonMain title="Забронировать место"/>
                 </div>
             </div>
         </div>

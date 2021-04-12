@@ -2,7 +2,7 @@ import s from './ButtonMain.module.scss';
 
 function Button(props) {
     return (
-        <button className={s.btn} style={props.style}>
+        <button className={s.btn}>
             {props.title}
         </button>
     );
