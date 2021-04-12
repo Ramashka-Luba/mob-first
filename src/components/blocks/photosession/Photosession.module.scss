@@ -1,0 +1,23 @@
+@import './../../../styles/sass/vars.scss';
+@import './../../../styles/sass/mixins.scss';
+
+.photosession{
+    padding-top: 40px;
+    .container {
+        @extend %container;
+        .title {
+            @include text(26px, 400, 32px); 
+            color: $textColor;
+            width: 290px;
+            text-align: center;
+            margin-bottom: 13px;
+        }
+        .video {
+            width: 290px;
+            height: 197px;
+            .videoImg {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -18,14 +18,10 @@
         background-size: 135%;
         background-position: 50% center;
     }
-    // @include media (xlg) {
-    //     background-size: 100%;
-    //     background-position: 50% center;
-    // }
-
-
-    
-
+    @include media (xl) {
+        background-size: 100%;
+        background-position: 50% center;
+    }
     .container {
         @extend %container;
         .inner {
