@@ -8,8 +8,8 @@ function Photosession(props) {
             <div className={s.container}>
                 <h2 className={s.title}>Фотосессия в вертолете</h2>
                 <div className={s.video}>
-                    <img className={s.videoImg} src={photosession} alt="photo"/>
                 </div>
+                
                 
 
         </div>

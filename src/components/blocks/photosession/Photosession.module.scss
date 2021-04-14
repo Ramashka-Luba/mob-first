@@ -8,16 +8,17 @@
         .title {
             @include text(26px, 400, 32px); 
             color: $textColor;
-            width: 290px;
+            max-width: 183px;
             text-align: center;
-            margin-bottom: 13px;
+            margin: 0 auto 13px auto ;
+
         }
         .video {
             width: 290px;
             height: 197px;
-            .videoImg {
-                width: 100%;
-            }
+            background-image: url(./../../../assets/img/photosession.jpeg);
+            background-size: 100%;
+            background-position: center -46px;
         }
     }
 }
