@@ -19,6 +19,25 @@
             background-image: url(./../../../assets/img/photosession.jpeg);
             background-size: 100%;
             background-position: center -46px;
+            position: relative;
+            &::after{
+                content: "";
+                display: inline-block;
+                width: 12px;
+                height: 17px;
+                background-image: url("./../../../assets/img/playVideo.png");
+
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+            }
         }
+        .wrap {}
+        .text{
+            @include text(14px, 400, 20px);
+            color: $textColor;
+            width: 290px;
+        }
+
     }
 }

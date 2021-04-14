@@ -7,9 +7,12 @@ function Photosession(props) {
         <div className={s.photosession}>
             <div className={s.container}>
                 <h2 className={s.title}>Фотосессия в вертолете</h2>
-                <div className={s.video}>
+                <div className={s.video}></div>
+                <div className={s.wrap}>
+                    <p className={s.text}>Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты!</p>
+
                 </div>
-                
+
                 
 
         </div>
