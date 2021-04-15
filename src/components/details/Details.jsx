@@ -3,7 +3,7 @@ import s from "./Details.module.scss";
 
 function Details (props) {
     return (
-        <div className={s.wrap}>
+        <div className={s.wrap} style={props.style}>
             <img className={s.icon}  src={props.src} alt={props.alt}/>
             <p className={s.text}>{props.value}</p>
         </div>  

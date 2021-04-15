@@ -2,6 +2,13 @@
 @import './../../styles/sass/vars.scss';
 
 .wrap{
-    .icon{}
-    .text{}
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    .icon{
+        padding-right: 10px;
+    }
+    .text{
+        @include text(14px, 500, 20px)
+    }
 }
