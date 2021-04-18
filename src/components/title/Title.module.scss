@@ -6,4 +6,6 @@
     color: $textColor;
     width: 290px;
     text-align: center;
+    @include media (xs) {
+    }
 }
