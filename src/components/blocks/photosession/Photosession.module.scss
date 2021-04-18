@@ -5,39 +5,44 @@
     padding-top: 40px;
     .container {
         @extend %container;
-        .title {
-            @include text(26px, 400, 32px); 
-            color: $textColor;
-            max-width: 183px;
-            text-align: center;
-            margin: 0 auto 13px auto ;
-
-        }
-        .video {
-            width: 290px;
-            height: 197px;
-            background-image: url(./../../../assets/img/photosession.jpeg);
-            background-size: 100%;
-            background-position: center -46px;
-            position: relative;
-            &::after{
-                content: "";
-                display: inline-block;
-                width: 12px;
-                height: 17px;
-                background-image: url("./../../../assets/img/playVideo.png");
-
-                position: absolute;
-                right: 20px;
-                bottom: 20px;
+        .inner {
+            display: grid;
+            grid-auto-rows: auto auto;
+            .title {
+                @include text(26px, 400, 32px); 
+                color: $textColor;
+                max-width: 183px;
+                text-align: center;
+                margin: 0 auto 13px auto ;
+            }
+            .video {
+                width: 290px;
+                height: 197px;
+                background-image: url(./../../../assets/img/photosession.jpeg);
+                background-size: 100%;
+                background-position: center -46px;
+                position: relative;
+                &::after{
+                    content: "";
+                    display: inline-block;
+                    width: 12px;
+                    height: 17px;
+                    background-image: url("./../../../assets/img/playVideo.png");
+    
+                    position: absolute;
+                    right: 20px;
+                    bottom: 20px;
+                }
+            }
+            .wrap {}
+            .text{
+                @include text(14px, 400, 20px);
+                color: $textColor;
+                width: 290px;
+                margin: 30px 0 34px 0;
             }
         }
-        .wrap {}
-        .text{
-            @include text(14px, 400, 20px);
-            color: $textColor;
-            width: 290px;
-        }
+        
 
     }
 }
