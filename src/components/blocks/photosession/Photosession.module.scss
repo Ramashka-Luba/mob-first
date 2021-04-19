@@ -13,6 +13,11 @@
             grid-auto-rows: auto;
             @include media (md) {
                 grid-template-columns: repeat(2, 1fr);
+                .video {
+                    grid-row:1/4;
+                    grid-column:2/3;
+                    margin-left: 17px;
+                }
             }
             .title {
                 @include text(26px, 400, 32px); 

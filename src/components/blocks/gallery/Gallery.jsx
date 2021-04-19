@@ -4,6 +4,7 @@ import Photo1 from './../../../assets/img/Gallery/photo1.png';
 import Photo2 from './../../../assets/img/Gallery/photo2.png';
 import Photo3 from './../../../assets/img/Gallery/photo3.png';
 import Photo4 from './../../../assets/img/Gallery/photo4.png';
+import More from '../../more/More';
 
 
 function Gallery() {
@@ -22,6 +23,7 @@ function Gallery() {
                         <img className={s.photo} src={Photo3} alt="photo7"/>
                         <img className={s.photo} src={Photo4} alt="photo8"/>
                     </div>
+                    <More moreText="Показать все фото"/>
                 </div>
             </div>
         </div>
