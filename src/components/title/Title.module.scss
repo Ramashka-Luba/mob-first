@@ -4,8 +4,21 @@
 .title {
     @include text(26px, 400, 32px); 
     color: $textColor;
-    width: 290px;
+    width: 266px;
     text-align: center;
-    @include media (xs) {
+    margin-bottom: 32px;
+    @include media (sm) {
+        @include text(20px, 500, 30px); 
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    @include media (md) {
+        @include text(28px, 500, 41px);
+        width: 100%; 
+        margin-bottom: 50px;
+    }
+    @include media (lg) {
+        @include text(20px, 500, 30px); 
+        margin-bottom: 37px;
     }
 }
