@@ -7,9 +7,11 @@ function More(props) {
     return (
         <div className={s.more}>
             <div className={s.container}>
-                <img className={s.arrow} src={Arrow} alt="arrow"/>
-                <a className={s.link}>{props.moreText}</a>
-                <img className={s.arrow} src={Arrow} alt="arrow"/>
+                <div className={s.inner}>
+                    <img className={s.arrow} src={Arrow} alt="arrow" />
+                    <a className={s.link}>{props.moreText}</a>
+                    <img className={s.arrow} src={Arrow} alt="arrow" />
+                </div>
             </div>
         </div>
     );
