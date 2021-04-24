@@ -36,6 +36,7 @@
                 }
                 @include media (md) {
                     margin: 0;
+                    letter-spacing: 0;
                 }
             }
             .video {
@@ -59,6 +60,7 @@
                 @include media (md) {
                     width: 554px;
                     height: 374px;
+                    background-position: 20% -93px;
                 }
                 &::after{
                     content: "";
@@ -99,7 +101,7 @@
                     margin: 46px 0 18px 0;
                 }
                 @include media (md) {
-                    margin: 18px 0 23px 0;
+                    margin: 9px 0 18px 0;
                 }
             }
         }

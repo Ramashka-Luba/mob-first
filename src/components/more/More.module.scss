@@ -2,23 +2,22 @@
 @import './../../styles/sass/vars.scss';
 
 .more {
-    .container {
-        @extend %container;
-
-        .inner {
-            margin-top: 45px;
-            padding-bottom: 27px;
-            border-bottom: 0.5px solid $secondaryColor;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .arrow {}
-
-            .link {
-                @include text(17px, 500, 1.5);
-                margin: 0 10px 0 10px;
-                color: $linkColor;
-            }
+    .inner {
+        margin-top: 45px;
+        padding-bottom: 27px;
+        border-bottom: 0.5px solid $secondaryColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include media (sm) {
+            margin-top: 40px;
+            padding-bottom: 22px;
+        }
+        .arrow {}
+        .link {
+            @include text(17px, 500, 1.5);
+            margin: 0 10px 0 10px;
+            color: $linkColor;
         }
     }
 }

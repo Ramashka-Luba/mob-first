@@ -9,16 +9,16 @@
     margin: 0 auto 32px auto;
     @include media (sm) {
         @include text(20px, 500, 30px); 
+        line-height: 23px;
         text-align: left;
         margin: 0 0 30px 0;
     }
     @include media (md) {
         @include text(28px, 500, 41px);
         width: 100%; 
-        margin-bottom: 50px;
+        margin-bottom: 35px;
     }
     @include media (lg) {
         @include text(20px, 500, 30px); 
-        margin-bottom: 37px;
     }
 }
