@@ -2,3 +2,8 @@
 @import './../../../styles/sass/mixins.scss';
 
 
+.profile {
+    .container {
+        @extend %container;
+    }
+}
