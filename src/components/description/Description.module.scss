@@ -1,19 +1,22 @@
-@import './../../../styles/sass/vars.scss';
-@import './../../../styles/sass/mixins.scss';
+@import './../../styles/sass/vars.scss';
+@import './../../styles/sass/mixins.scss';
 
 
-function Photographer (props) {
-    return (
-        <div className={s.photographer}>
-            <img className={s.photo}  alt="photo"/>
-            <div className={s.info}>
-                <p className={s.mane}>Марина Иванова</p>
-                <span className={s.text}>Фотограф</span>
-                <a className={s.link} >Показать больше информации о фотографе</a>
-            </div>
-            <img className={s.like} alt="like"/>
-        </div> 
-    );
+.descripttion {
+    width: 290px;
+    .title {
+        @include text(18px, 500, 26px);
+        margin-bottom: 14px;
+    }
+    .text {
+        @include text(16px, 400, 24px);
+        margin-bottom: 22px;
+    }
+    .wrap {
+        .link {
+            @include text(16px, 500, 23px);
+            color: $linkColor;
+        }
+        .arrow {}
+    }
 }
-
-export default Photographer;
