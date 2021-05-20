@@ -7,16 +7,21 @@
     .title {
         @include text(18px, 500, 26px);
         margin-bottom: 14px;
+        color: $textColor;
     }
     .text {
         @include text(16px, 400, 24px);
         margin-bottom: 22px;
+        color: $textColor;
     }
     .wrap {
+        margin-bottom: 30px;
         .link {
             @include text(16px, 500, 23px);
-            color: $linkColor;
+            color: $linkColor;            
         }
-        .arrow {}
+        .arrow {
+            margin-left: 10px;
+        }
     }
 }
