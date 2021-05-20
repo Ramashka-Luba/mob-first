@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 63px 0 25px 0;
+    margin: 63px 14px 19px 0;
     @include media (sm) {
         margin: 56px 0 30px 0;
     }
@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 23px;
+        margin-top: 25px;
         .mane {
             @include text(18px, 500, 22px);
         }
@@ -36,8 +36,8 @@
     }
     .like {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 3px;
+        right: -14px;
         transform: translateY(-50%);
     }
 }

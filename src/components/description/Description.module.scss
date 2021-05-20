@@ -6,13 +6,14 @@
     width: 290px;
     .title {
         @include text(18px, 500, 26px);
-        margin-bottom: 14px;
+        margin-bottom: 13px;
         color: $textColor;
     }
     .text {
         @include text(16px, 400, 24px);
-        margin-bottom: 22px;
+        margin-bottom: 26px;
         color: $textColor;
+        white-space: pre-wrap;
     }
     .wrap {
         margin-bottom: 30px;
