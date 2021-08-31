@@ -3,23 +3,36 @@
 
 
 .descripttion {
-    width: 290px;
+    min-width: 290px;
+    max-width: 584px;
     .title {
         @include text(18px, 500, 26px);
         margin-bottom: 13px;
         color: $textColor;
     }
-    .text {
+    .text1 {
         @include text(16px, 400, 24px);
-        margin-bottom: 26px;
+        margin-bottom: 25px;
         color: $textColor;
         white-space: pre-wrap;
     }
+    .text2 {
+        @include text(16px, 400, 24px);
+        margin-bottom: 41px;
+        color: $textColor;
+        white-space: pre-wrap;
+        @include media (sm) {
+            margin-bottom: 7px;
+        }
+    }
     .wrap {
-        margin-bottom: 30px;
+        margin-bottom: 27px;
         .link {
             @include text(16px, 500, 23px);
             color: $linkColor;            
+        }
+        @include media (sm) {
+            margin-bottom: 40px;
         }
         .arrow {
             margin-left: 10px;

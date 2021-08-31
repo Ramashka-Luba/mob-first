@@ -3,9 +3,38 @@
 
 
 .profile {
+    padding: 64px 0 40px;
+    @include media (xs) {
+        padding: 64px 0 84px;
+    }
+    @include media (sm) {
+        padding: 61px 0 84px;
+    }
+    @include media (md) {
+        padding: 40px 0 84px;
+    }
     .container {
         @extend %container;
-        .photograpfer {}
-        .description {}
+        @include media (md) {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        .photograpfer {
+            margin-bottom: 19px;
+            @include media (xs) {
+                margin-bottom: 25px;
+            }
+            @include media (sm) {
+                margin-bottom: 29px;
+            }
+            @include media (md) {
+                margin: 32px 146px 0;
+            }
+            
+        }
+        .description {
+            
+        }
     }
 }

@@ -6,7 +6,10 @@ import Like from "./../../assets/img/Profile/Vector.png";
 function Photographer (props) {
     return (
         <div className={s.photographer}>
-            <img className={s.photo} src={User} alt="photo"/>
+            <div className={s.photo} >
+                <img src={User} alt="photo"/>
+            </div>
+            
             <div className={s.info}>
                 <p className={s.mane}>Марина Иванова</p>
                 <span className={s.text}>Фотограф</span>

@@ -5,8 +5,8 @@ function Description (props) {
     return (
         <div className={s.descripttion} style={props.style}>
             <h3 className={s.title}>{props.title}</h3>
-            <p className={s.text}>{props.text1}</p>
-            <p className={s.text}>{props.text2}</p>
+            <p className={s.text1}>{props.text1}</p>
+            <p className={s.text2}>{props.text2}</p>
             <div className={s.wrap}>
                 <a className={s.link}>Читать еще</a>
                 <img className={s.arrow} src={Arrow} alt="arrow" ></img>
