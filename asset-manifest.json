@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Ramashka-Luba/mob-first/static/css/main.7b4f63bc.chunk.css",
+    "main.js": "/Ramashka-Luba/mob-first/static/js/main.046f97e9.chunk.js",
+    "main.js.map": "/Ramashka-Luba/mob-first/static/js/main.046f97e9.chunk.js.map",
+    "runtime-main.js": "/Ramashka-Luba/mob-first/static/js/runtime-main.d7a535e7.js",
+    "runtime-main.js.map": "/Ramashka-Luba/mob-first/static/js/runtime-main.d7a535e7.js.map",
+    "static/js/2.93a71f11.chunk.js": "/Ramashka-Luba/mob-first/static/js/2.93a71f11.chunk.js",
+    "static/js/2.93a71f11.chunk.js.map": "/Ramashka-Luba/mob-first/static/js/2.93a71f11.chunk.js.map",
+    "static/js/3.008f940b.chunk.js": "/Ramashka-Luba/mob-first/static/js/3.008f940b.chunk.js",
+    "static/js/3.008f940b.chunk.js.map": "/Ramashka-Luba/mob-first/static/js/3.008f940b.chunk.js.map",
+    "index.html": "/Ramashka-Luba/mob-first/index.html",
+    "static/css/main.7b4f63bc.chunk.css.map": "/Ramashka-Luba/mob-first/static/css/main.7b4f63bc.chunk.css.map",
+    "static/js/2.93a71f11.chunk.js.LICENSE.txt": "/Ramashka-Luba/mob-first/static/js/2.93a71f11.chunk.js.LICENSE.txt",
+    "static/media/Ellipse.6ec0a5dc.png": "/Ramashka-Luba/mob-first/static/media/Ellipse.6ec0a5dc.png",
+    "static/media/Main.module.scss": "/Ramashka-Luba/mob-first/static/media/price-box.7f942ea7.svg",
+    "static/media/logo.e77b065c.svg": "/Ramashka-Luba/mob-first/static/media/logo.e77b065c.svg",
+    "static/media/percent.8aa83e7b.svg": "/Ramashka-Luba/mob-first/static/media/percent.8aa83e7b.svg",
+    "static/media/photo1.487dd28d.png": "/Ramashka-Luba/mob-first/static/media/photo1.487dd28d.png",
+    "static/media/photo2.9f1604de.png": "/Ramashka-Luba/mob-first/static/media/photo2.9f1604de.png",
+    "static/media/photo3.d6f0c167.png": "/Ramashka-Luba/mob-first/static/media/photo3.d6f0c167.png",
+    "static/media/photo4.243665ec.png": "/Ramashka-Luba/mob-first/static/media/photo4.243665ec.png",
+    "static/media/Photosession.module.scss": "/Ramashka-Luba/mob-first/static/media/photosession.aefd7c74.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7a535e7.js",
+    "static/js/2.93a71f11.chunk.js",
+    "static/css/main.7b4f63bc.chunk.css",
+    "static/js/main.046f97e9.chunk.js"
+  ]
+}
