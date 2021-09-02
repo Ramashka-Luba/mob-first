@@ -8,11 +8,11 @@
     }
     .container {
         @extend %container;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 24px;
         .inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 24px;
         .payment {
             .imgPayment {
                 margin-right: 17px;
