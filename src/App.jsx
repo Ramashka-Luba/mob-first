@@ -1,4 +1,5 @@
 import s from './App.modue.scss';
+import Footer from './components/blocks/footer/Footer';
 import Gallery from './components/blocks/gallery/Gallery';
 import Header from './components/blocks/header/Header';
 import Main from './components/blocks/main/Main';
@@ -13,6 +14,7 @@ function App() {
       <Photosession/>
       <Gallery/>
       <Profile/>
+      <Footer/>
     </div>
   );
 }

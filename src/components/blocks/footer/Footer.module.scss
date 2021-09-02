@@ -1,0 +1,72 @@
+@import './../../../styles/sass/vars.scss';
+@import './../../../styles/sass/mixins.scss';
+
+.footer {
+    .container {
+        @extend %container;
+        .inner {
+            @include media (md)  { 
+                margin: 0 65px;
+            }
+            .footerTop {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                .logo {}
+                .rightBlock {
+                    display: flex;
+                    align-items: center;
+                    
+                    .social {
+                        display: flex;
+                        align-items: center;
+                        .socialIcon {
+                            width: 25px;
+                            margin-right: 30px;
+                            &:last-child {
+                                margin-right: 0;
+                                @include media (md)  { 
+                                    margin-right: 30px;
+                                }
+                            }
+                        }
+                    }
+                    .lang {
+                        display: none;
+                        position: relative;
+                        @include media (md)  { 
+                            display: inline-block;
+                        }
+                        & select{
+                            display: block;
+                            background: none;
+                            border: none;
+                            padding-right: 32px;
+                            appearance: none;
+                        
+                            @include text (15px, 400, 18px);
+                            color: $textColor;
+                            cursor: pointer;
+                            outline: 0;
+                        }
+                        &::after {
+                            content: "";
+                            display: block;
+                            background-image: url("./../../../assets/img/Gallery/Arrow.png");
+                        
+                            width: 11px;
+                            height: 6px;
+                        
+                            position: absolute;
+                            top: 50%;
+                            right: 17px;
+                            transform: translateY(-50%);
+                            
+                            pointer-events: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
